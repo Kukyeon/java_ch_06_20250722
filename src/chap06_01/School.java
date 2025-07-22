@@ -17,6 +17,8 @@ public class School {
 		stu1.age = 22;
 		stu1.phone = "010-1212-3131";
 		stu1.address = "서울시 마포구";
+		stu1.schoolName = "중앙고등학교";
+		stu1.scores[0] = 90;
 		stu1.outputName();
 		
 		Student stu2 = new Student();
