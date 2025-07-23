@@ -30,6 +30,15 @@ public class MainClass {
 			
 			car.carEngineType();
 			
+			System.out.println("================================");
+			
+			Printer pri = new Printer();
+			// 메소드 오버로딩
+			pri.println(100);
+			pri.println("gd");
+			pri.println(3.14);
+			pri.println(true);
+			
 			
 	}
 
