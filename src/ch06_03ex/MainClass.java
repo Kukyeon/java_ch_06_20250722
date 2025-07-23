@@ -21,6 +21,14 @@ public class MainClass {
 			fourClass.add2();
 			fourClass.add3();
 					
+			System.out.println("================================");
+			
+			Engine engine = new Engine("가솔린", 2);
+			
+			
+			Car car = new Car("막시무스", 200, engine);
+			
+			car.carEngineType();
 			
 			
 	}
