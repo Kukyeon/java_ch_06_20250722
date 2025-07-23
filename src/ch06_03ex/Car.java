@@ -1,5 +1,7 @@
 package ch06_03ex;
 
+import javax.swing.Spring;
+
 public class Car {
 	
 	String name;
@@ -26,7 +28,23 @@ public class Car {
 	public void carEngineType() {
 		System.out.println("엔진타입 :" + engine.type);
 		engine.printEngine();
+		
 	}
+	public Engine outputEngine() {
+		engine.type = "디젤";
+		engine.displacement = 2;
+		return engine;
+	}
+	
+	public String[] outputCars() {
+		String[] cars = {"소나타","아우디","아반떼"};
+		
+		carEngineType();
+		
+		return cars; //배열
+	}
+	
+	
 	
 	
 }
